@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{ 
+        padding: 0;
+        margin: 0;
+    }
+    video{
+        position: relative;
+        width: 100%;
+       height: 120%;
+    }
+    .head{
+        /* margin-top: 3%; */
+        position:absolute;
+        text-align: center;
+        /* margin-left: 35%; */
+        top: 67px;
+     right: 32%;       
+        
+    }
+    .head h1{font-size: 110px; margin-top: 5px; margin-bottom: 10px;font-family: 'Permanent Marker', cursive;}
+    .head p{font-size: 30px; margin-bottom: 11px;font-family: 'Dancing Script', cursive; font-weight: 600; }
+    .head input{ margin-top: 70px; padding-top: 2%; padding-bottom: 2%; padding-left: 4%; padding-right: 4%; font-size: 14px; font-weight: lighter; background-color: black; color: white; scroll-behavior: smooth;}
+    .head input:hover{background-color: white; color: black; cursor: pointer; }
+    .main h1{margin-left: 27px; margin-top: 20px; font-size: 38px; text-align: center;}
+    .container{display: flex; margin-top: 2%;}
+    .main{padding-right: 25%; padding-left: 5%;}
+   .photu{padding-right: 5%;}
+  .main p{font-size: 22px; margin-top: 2%;font-family: 'Concert One', cursive;}
+  #para{display: none;}
+  .photu img{border: 2px black solid;}
+  .main #btn{ margin-top: 70px; padding-top: 2%; padding-bottom: 2%; padding-left: 4%; padding-right: 4%; font-size: 14px; font-weight: lighter; background-color: black; color: white; margin-left: 35%;}
+  .main #btn:hover{background-color: white; color: black; cursor: pointer; }
+  .container2{background-image: url("Rstecz1.webp");padding-top: 3%;}
+  .box{display: flex; justify-content:space-evenly;   margin-top: 7%; box-sizing: border-box; width: 100%; }
+  .container2{margin-top: 5%; padding-bottom: 3%;}
+  .container2 h1{margin-left: 13%;}
+  .box1{ border: 3px black solid; padding-right: 2%; padding-left: 2%;padding-bottom: 2%;}
+  .box2{border:  3px black solid;padding-right: 2%; padding-left: 2%; padding-bottom: 2%} 
+  .box3{border:  3px black solid; padding-left: 2%; padding-right: 2%;padding-bottom: 2%}
+  .box1 h1{display: block; margin: auto; margin-top: 9%;}
+  .box1 p{text-align: center; margin-top: 16.6%;}
+  .box2 h1{display:block; margin: auto; margin-top: 9%;}
+  .box2 p{text-align: center; margin-top: 14%;}
+  .box3 h1{display: block;margin: auto; margin-top: 9%;}
+  .box3 p{text-align: center; margin-top: 9.5%;}
+  .amout{display: flex; justify-content:center; margin-top: 55%;} 
+  .amout2{display: flex; justify-content:center; margin-top: 40%;} 
+  .amout3{display: flex; justify-content:center; margin-top: 27.8%;} 
+  .amout input{margin-left: 10%;padding-top: 2%; padding-bottom: 2%; padding-left: 4%; padding-right: 4%; font-size: 14px; font-weight: lighter; background-color: black; color: white;}
+  .amout input:hover{background-color:  rgb(243, 144, 231); color: black; cursor: pointer;}
+  .amout2 input{margin-left: 10%;padding-top: 2%; padding-bottom: 2%; padding-left: 4%; padding-right: 4%; font-size: 14px; font-weight: lighter; background-color: black; color: white;}
+  .amout2 input:hover{background-color:  rgb(243, 144, 231); color: black; cursor: pointer;}
+  .amout3 input{margin-left: 10%;padding-top: 1.5%; padding-bottom: 1.5%; padding-left: 4%; padding-right: 4%; font-size: 14px; font-weight: lighter; background-color: black; color: white;}
+  .amout3 input:hover{background-color: rgb(243, 144, 231); color: black; cursor: pointer;}
+  .button{margin-top: 70px; padding: 0.6%; font-size: 14px; font-weight:lighter; background-color: black; color: white; margin-left: 42%;}
+.button:hover{background-color: white; color: black; cursor: pointer; }  
+.container3{background-color: rgb(191, 130, 232);}
+.container3kabox{display: flex; justify-content: space-evenly; padding-bottom: 3%; padding-top: 3%;}
+.social{display: flex; justify-content: space-between; margin-top: 20%;}
+.para1{margin-top: 20%; font-size: 17px;font-weight: bolder;font-family: 'Concert One', cursive;}
+.para2{font-size: 20px;margin-top: 20%;font-weight: bolder;}
+.info h1{text-decoration: underline;}
+.form{padding: 4%; border: 2px solid black ; border-radius: 18px;}
+.form input{padding-top: 2%; padding-bottom:2%; background-color:rgb(191, 130, 232) ; border: 2px black solid; width: max-content; color: black; font-weight: bold; padding-left: 2%;}
+.form p{font-size: 20px; font-weight: bolder;font-family: 'Concert One', cursive;}
+.form textarea{background-color: rgb(191, 130, 232); border: 2px solid black;}
+.button1{padding-top: 2%; padding-bottom: 2%; padding-left: 13%; padding-right: 13%; font-size: 14px; font-weight: lighter; background-color: black; color: white; margin-left: 25%; margin-top: 4.4%; border-radius: 18px;}
+.button1:hover{background-color: white; color: black; cursor: pointer;}    
+
+</style>
+
+   
+    <Section>
+<div class="video1">        
+    <video autoplay muted loop >
+        <source src="skyscrapers_-_80724 (Original).mp4" type="video/mp4">
+    </video>
+</div>
+<div class="head"><p>AMBITION IS THE FIRST STEP TOWARDS</p>
+          <h1>Success</h1> 
+          <p>Now Available for Online Coaching</p>  
+          <input type="button" value="Book Now" onclick="scrolldown()">   
+</div>
+</Section>
+<div class="container">
+    <div class="main"><h1>About Me</h1>
+        <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.​
+            This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide.</p>
+            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, veniam ipsam nesciunt laborum unde hic placeat possimus? Dicta voluptatibus nesciunt et omnis. Nemo nam modi ut atque inventore recusandae eveniet doloribus? Incidunt aut dolores dicta nostrum ipsa, molestias neque est similique quis eum fuga magni eius facilis, cupiditate ab praesentium quasi molestiae ea quam, omnis dolorem odio? Rerum, magnam aspernatur sed officiis perferendis odit quaerat maxime molestiae suscipit laboriosam similique? Nesciunt at voluptatum cumque. Ab, sunt illum. Laborum, corrupti. Voluptates distinctio adipisci impedit quam, tempore assumenda ullam! Cum repellendus quo deserunt? Natus, quod unde! </p>
+           <button id="btn" onclick="readmore()">Read more</button>
+    
+    
+    </div>
+   
+    <body>
+    <div class="photu">
+        <img src="WhatsApp Image 2022-05-11 at 12.18.38 AM.jpeg" alt="photu" height="400" width="400">
+
+    </div>
+</div>
+<div class="container2">
+    <h1>HOW CAN I HELP YOU ?</h1>
+    <div class="box">
+        <div class="box1">
+            <h1>Online Coaching</h1>
+            <p>Couple's Guildance</p>
+            <hr>
+            <div class="amout">
+                <h2>₹4000</h2>
+                <input type="button" value="Buy now">
+            </div>
+        </div>
+        <div class="box2">
+            <h1>Couple's Guildance</h1>
+            <p>Use this area to describe one of your services.
+
+            </p>
+            <hr>
+            <div class="amout2">
+                <h2>₹6000</h2>
+                <input type="button" value="Buy now">
+            </div>
+            
+            
+
+        </div>
+        <div class="box3">
+            <h1>Self-Improvement Workshop</h1>
+            <p>Use this area to describe one of your services</p>
+            <hr>
+            <div class="amout3">
+                <h2>₹10000</h2>
+                <input type="button" value="Buy now">
+            </div>
+        </div>
+    </div>
+    <button class="button">More services</button>
+    
+</div> 
+<div class="container3">
+    
+    <div class="container3kabox">
+        <div class="info">
+            <h1>Contact</h1>
+            <p class="para1">500 Terry Francois Street<br>San Francisco, CA 94158</p>
+            <p class="para2">Tel: 123-456-7890 <br>Fax: 123-456-7890</p>
+            <a href="info@mysite.com">info@mysite.com</a>
+            <div class="social">
+                <img src="instagram.png" alt="insta" height="30" width="30">
+                <img src="youtube.png" alt="youtube" height="30" width="30">
+                <img src="facebook.png" alt="fb" height="30" width="30">
+                <img src="twitter.png" alt="fb" height="30" width="30">
+            </div>
+        </div>
+        
+        
+        <div class="form">
+            <p>Enter your name</p><br>
+            <input type="text" placeholder="Enter your name">
+            <br>
+            <br>
+            <p>Enter your email</p><br>
+            <input type="email" placeholder="Enter your email">
+            <br>
+            <br>
+            <p>Enter your Subject</p><br>
+            <input type="text" placeholder="Enter your subject">
+            <br>
+            <br>
+            <p>Message</p><br>
+            <textarea name="msg" id="" cols="30" rows="10"></textarea>
+            <button class="button1">Submit</button>
+        </div>
+
+
+    </div>
+
+</div>
+<script>
+    
+    let btn=document.getElementById("btn");
+    let para=document.getElementById("para");
+    
+    function readmore(){
+        if(para.style.display != "none"){
+            para.style.display="none";
+            btn.innerHTML="Read More"
+        }
+        else{
+            para.style.display="block";
+           btn.innerHTML="Read less";
+        }
+    }
+    function scrolldown(){
+        window.scrollBy(0,1500);
+    }
+   
+</script>
+
+</body>
+</html>
